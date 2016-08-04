@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/6519/ProyectoCSJ/trunk/appointment-scheduler-portlet/docroot/WEB-INF
+END
+portlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/6661/ProyectoCSJ/trunk/appointment-scheduler-portlet/docroot/WEB-INF/portlet.xml
+END
+liferay-portlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/6200/ProyectoCSJ/trunk/appointment-scheduler-portlet/docroot/WEB-INF/liferay-portlet.xml
+END
+liferay-plugin-package.properties
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/6519/ProyectoCSJ/trunk/appointment-scheduler-portlet/docroot/WEB-INF/liferay-plugin-package.properties
+END
+liferay-display.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/6200/ProyectoCSJ/trunk/appointment-scheduler-portlet/docroot/WEB-INF/liferay-display.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/6200/ProyectoCSJ/trunk/appointment-scheduler-portlet/docroot/WEB-INF/web.xml
+END

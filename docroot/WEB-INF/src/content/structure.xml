@@ -1,0 +1,128 @@
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element dataType="string" name="appointment-department"
+		type="text">
+		<meta-data locale="en_US">
+			<entry name="label"><![CDATA[Departamento]]></entry>
+			<entry name="showLabel"><![CDATA[true]]></entry>
+			<entry name="required"><![CDATA[false]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]>
+			</entry>
+			<entry name="tip"><![CDATA[]]>
+			</entry>
+			<entry name="width"><![CDATA[25]]></entry>
+			<entry name="fieldCssClass"><![CDATA[aui-w25]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element dataType="string" name="appointment-city"
+		type="text">
+		<meta-data locale="en_US">
+			<entry name="label"><![CDATA[Ciudad]]></entry>
+			<entry name="showLabel"><![CDATA[true]]></entry>
+			<entry name="required"><![CDATA[false]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]>
+			</entry>
+			<entry name="tip"><![CDATA[]]>
+			</entry>
+			<entry name="width"><![CDATA[25]]></entry>
+			<entry name="fieldCssClass"><![CDATA[aui-w25]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element dataType="string" name="appointment-type"
+		type="text">
+		<meta-data locale="en_US">
+			<entry name="label"><![CDATA[Tipo de cita]]></entry>
+			<entry name="showLabel"><![CDATA[true]]></entry>
+			<entry name="required"><![CDATA[false]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]>
+			</entry>
+			<entry name="tip"><![CDATA[]]>
+			</entry>
+			<entry name="width"><![CDATA[25]]></entry>
+			<entry name="fieldCssClass"><![CDATA[aui-w25]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element dataType="date" fieldNamespace="ddm"
+		name="appointment-date" type="ddm-date">
+		<meta-data locale="en_US">
+			<entry name="label"><![CDATA[Fecha]]></entry>
+			<entry name="showLabel"><![CDATA[true]]></entry>
+			<entry name="required"><![CDATA[false]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]>
+			</entry>
+			<entry name="tip"><![CDATA[]]>
+			</entry>
+			<entry name="width"><![CDATA[25]]></entry>
+			<entry name="fieldCssClass"><![CDATA[aui-w25]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element dataType="string" name="appointment-hour"
+		type="text">
+		<meta-data locale="en_US">
+			<entry name="label"><![CDATA[Horario]]></entry>
+			<entry name="showLabel"><![CDATA[true]]></entry>
+			<entry name="required"><![CDATA[false]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]>
+			</entry>
+			<entry name="tip"><![CDATA[]]>
+			</entry>
+			<entry name="width"><![CDATA[25]]></entry>
+			<entry name="fieldCssClass"><![CDATA[aui-w25]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element dataType="string" name="contact-name-and-last-name"
+		type="text">
+		<meta-data locale="en_US">
+			<entry name="label"><![CDATA[Nombre y apellido]]></entry>
+			<entry name="showLabel"><![CDATA[true]]></entry>
+			<entry name="required"><![CDATA[false]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]>
+			</entry>
+			<entry name="tip"><![CDATA[]]>
+			</entry>
+			<entry name="width"><![CDATA[25]]></entry>
+			<entry name="fieldCssClass"><![CDATA[aui-w25]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element dataType="string" name="contact-email"
+		type="text">
+		<meta-data locale="en_US">
+			<entry name="label"><![CDATA[Correo electronico]]></entry>
+			<entry name="showLabel"><![CDATA[true]]></entry>
+			<entry name="required"><![CDATA[false]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]>
+			</entry>
+			<entry name="tip"><![CDATA[]]>
+			</entry>
+			<entry name="width"><![CDATA[25]]></entry>
+			<entry name="fieldCssClass"><![CDATA[aui-w25]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element dataType="string" name="contact-phone"
+		type="text">
+		<meta-data locale="en_US">
+			<entry name="label"><![CDATA[Telefono de contacto]]></entry>
+			<entry name="showLabel"><![CDATA[true]]></entry>
+			<entry name="required"><![CDATA[false]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]>
+			</entry>
+			<entry name="tip"><![CDATA[]]>
+			</entry>
+			<entry name="width"><![CDATA[25]]></entry>
+			<entry name="fieldCssClass"><![CDATA[aui-w25]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element dataType="string" name="comments"
+		type="textarea">
+		<meta-data locale="en_US">
+			<entry name="label"><![CDATA[Comentarios]]></entry>
+			<entry name="showLabel"><![CDATA[true]]></entry>
+			<entry name="required"><![CDATA[false]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]>
+			</entry>
+			<entry name="tip"><![CDATA[]]>
+			</entry>
+			<entry name="width"><![CDATA[25]]></entry>
+			<entry name="fieldCssClass"><![CDATA[aui-w25]]></entry>
+		</meta-data>
+	</dynamic-element>
+</root>

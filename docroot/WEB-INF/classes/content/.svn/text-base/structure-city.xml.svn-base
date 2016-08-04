@@ -1,0 +1,30 @@
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element dataType="string" name="city-name"
+		type="text">
+		<meta-data locale="en_US">
+			<entry name="label"><![CDATA[Nombre]]></entry>
+			<entry name="showLabel"><![CDATA[true]]></entry>
+			<entry name="required"><![CDATA[false]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]>
+			</entry>
+			<entry name="tip"><![CDATA[]]>
+			</entry>
+			<entry name="width"><![CDATA[25]]></entry>
+			<entry name="fieldCssClass"><![CDATA[aui-w25]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element dataType="string" name="city-department"
+		type="text">
+		<meta-data locale="en_US">
+			<entry name="label"><![CDATA[Departamento]]></entry>
+			<entry name="showLabel"><![CDATA[true]]></entry>
+			<entry name="required"><![CDATA[false]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]>
+			</entry>
+			<entry name="tip"><![CDATA[]]>
+			</entry>
+			<entry name="width"><![CDATA[25]]></entry>
+			<entry name="fieldCssClass"><![CDATA[aui-w25]]></entry>
+		</meta-data>
+	</dynamic-element>
+</root>

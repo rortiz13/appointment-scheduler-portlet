@@ -1,0 +1,29 @@
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element dataType="string" name="appointment-type"
+		type="text">
+		<meta-data locale="en_US">
+			<entry name="label"><![CDATA[Tipo]]></entry>
+			<entry name="showLabel"><![CDATA[true]]></entry>
+			<entry name="required"><![CDATA[false]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]>
+			</entry>
+			<entry name="tip"><![CDATA[]]>
+			</entry>
+			<entry name="width"><![CDATA[25]]></entry>
+			<entry name="fieldCssClass"><![CDATA[aui-w25]]></entry>
+		</meta-data>
+	</dynamic-element>
+	
+	<dynamic-element dataType="string" name="process_documents"
+		type="textarea">
+		<meta-data locale="en_US">
+			<entry name="label"><![CDATA[Documentos a Anexar]]></entry>
+			<entry name="showLabel"><![CDATA[true]]></entry>
+			<entry name="required"><![CDATA[false]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+			<entry name="tip"><![CDATA[]]></entry>
+			<entry name="width"><![CDATA[25]]></entry>
+			<entry name="fieldCssClass"><![CDATA[aui-w25]]></entry>
+		</meta-data>
+	</dynamic-element>
+</root>

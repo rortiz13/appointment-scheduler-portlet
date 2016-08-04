@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Notificacion Corte Suprema de Justicia</title>
+	<style>
+		h2{
+			color: #2268a4;
+			border-bottom: 1px dashed #969696;
+		}
+		
+		h3{
+			color: #363636;
+		}
+		p{
+			color: #363636;
+		}
+	</style>
+</head>
+
+<body>
+	<h2>Su cita ha sido Agendada.</h2>
+	<h3>La cita que ha pedido para el dia <strong>%s</strong> ha sido agendada en el horario <strong>%s</strong> hasta el horario %s.</h3>
+	<h3>Es importante que se presente con los siguientes documentos:</h3>
+	<p>%s</p>
+</body>
+</html>

@@ -1,0 +1,451 @@
+.appointment-tittle {
+	font-weight: bold;
+	color: #363636;
+}
+
+.appointment-tittle+div {
+	margin-bottom: 10px;
+	color: #363636;
+}
+
+.appointment-blue {
+	color: #2268a4;
+}
+
+.appointment-button:hover {
+	border-color: #627782;
+	background-color: rgb(34, 104, 164);
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0099cc),
+		color-stop(100%, #006699));
+	background: linear-gradient(#216dc6, #1664be) repeat scroll 0% 0%
+		transparent;
+	color: white;
+	margin-top: 12px;
+	/*     margin-left: 8px; */
+}
+
+.appointment-button {
+	background-color: rgb(34, 104, 164);
+	margin-left: 8px;
+	background-image: none;
+	text-shadow: none;
+	color: white;
+	padding: 5px 20px;
+	float: right;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0099cc),
+		color-stop(100%, #006699));
+	background: linear-gradient(#216dc6, #1664be) repeat scroll 0% 0%
+		transparent;
+	margin-top: 12px;
+	border: none;
+	border-radius: 3px;
+}
+
+.appointment-underlined {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom: 1px dashed #969696;
+	/* 	margin-bottom: 14px; */
+}
+
+.appointment-name-and-hour {
+	margin-left: -7px;
+}
+
+.appointment-date {
+	float: left;
+	width: 100%;
+}
+
+#scheduler-wrapper .aui-scheduler-event {
+	overflow: visible;
+	display: table;
+	background-color: #A7CEDF !important;
+/* 	border: 1px solid rgb(34, 104, 164) !important; */
+	border: none !important;
+	color: #363636 !important;
+}
+
+#scheduler-wrapper .aui-scheduler-event-content {
+	float: left;
+	color: #363636;
+}
+
+.aui-scheduler-event-recorder-overlay-repeat {
+	display: none;
+}
+
+.yui3-widget-ft .aui-buttonitem-content {
+	display: none;
+}
+
+.yui3-widget-ft .aui-buttonitem-content:nth-child(2) {
+	display: inline-block;
+}
+
+#createAppointment .aui-legend {
+	color: #2268a4;
+	font-weight: bold;
+	font-size: 1.818em;
+	border-bottom: 1px dashed #969696;
+}
+
+.aui-fieldset-legend {
+	height: 27px;
+}
+
+.appointment-tip {
+	color: #363636;
+	font-size: 1.091em;
+}
+
+#createAppointment .aui-field-content {
+	margin-top: 0px;
+}
+
+#createAppointment select {
+	width: 100%;
+}
+
+#createAppointment .appointment-date select {
+	width: auto;
+}
+
+#createAppointment input {
+	width: 100%;
+}
+
+#createAppointment .captcha-holder .aui-form-validator-error-container .aui-field-element{
+	width: 64%;
+	background-image: url("./images/1.png");
+}
+
+#createAppointment .aui-form-validator-error-container .aui-field-element{
+	width: 90%;
+	background-image: url("./images/1.png");
+}
+
+#createAppointment .aui-form-validator-error-container input {
+	width: 95%;
+}
+
+#createAppointment textarea {
+	width: 98%;
+}
+
+#createAppointment button#create-appointment-button {
+	background-color: #2268a4;
+	background-image: none;
+	text-shadow: none;
+	color: white;
+	padding: 5px 20px;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0099cc),
+		color-stop(100%, #006699));
+	/*     background: linear-gradient(rgb(0, 153, 204), rgb(0, 102, 153)) repeat scroll 0% 0% transparent; */
+	background: linear-gradient(#216dc6, #1664be) repeat scroll 0% 0%
+		transparent;
+	border: none;
+}
+
+#createAppointment #refresh-captcha{
+ 	background-color: #2268a4;
+	background-image: none;
+	text-shadow: none;
+ 	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0099cc),
+		color-stop(100%, #006699));
+	/*     background: linear-gradient(rgb(0, 153, 204), rgb(0, 102, 153)) repeat scroll 0% 0% transparent; */
+	background: linear-gradient(#216dc6, #1664be) repeat scroll 0% 0%
+		transparent;
+	border: none;
+	position: relative;
+	top: -42px;
+	left: 108px;
+/* 	left: 98px; */
+ }
+
+#createAppointment span.aui-icon-calendar {
+	background: url(./images/calendario_Icono.png);
+	background-size: cover;
+}
+
+#createAppointment button.aui-buttonitem-icon-only {
+	border: none;
+	background: none;
+}
+
+#createAppointment .captcha-holder .aui-field-input-text{
+	width: 75%;
+	background: white;
+}
+
+#createAppointment .captcha-holder{
+	background-color: #2268a4;
+	height: 118px;
+	border-radius: 4px;
+	width: 145px;
+}
+
+#createAppointment .captcha-error-wrapper .portlet-msg-error{
+	background-color: #e9e6e5;
+	border: none;
+	background-image: url(./images/1.png);
+}
+
+#createAppointment .captcha-holder .aui-field-label{
+	color: white;
+}
+
+.portlet-boundary .portlet-msg-error{
+	background-image: url(./images/1.png);
+}
+
+#createAppointment .captcha-holder .aui-form-validator-stack-error + .aui-field-input-text{
+	width: 90%;
+	background: white;
+}
+
+.form-reference-class ~ .portlet-msg-error{
+	background-image: url(./images/1.png);
+}
+
+/* textarea{ */
+/* 	resize: none; */
+/* } */
+div[id^=p_p_id_appointmentscheduler_WAR_appointmentschedulerportlet_] section.portlet{
+	background: white;
+}
+
+#createAppointment .aui-field-input-text,#createAppointment .aui-field-input-select{
+	background: none;
+}
+
+#createAppointment {
+	color: #363636;
+}
+
+#createAppointment .aui-datepicker-select-wrapper select,#createAppointment select{
+	background: none;
+	color: #565656;
+}
+
+#scheduler-wrapper .aui-scheduler-view-table-colgrid-today {
+	background-color: #cfe3f4;
+	border: none;
+	/* 	border-left: 1px solid gray; */
+	/* 	border-right: 1px solid gray; */
+}
+
+#scheduler-wrapper .aui-scheduler-view-table-data-col-title-today {
+	background: #baceec;
+	border: none;
+	/* 	border: 1px solid gray; */
+}
+
+.aui-scheduler-view-table-data-col-title-down {
+	border-top: none;
+}
+
+.aui-scheduler-base-nav .aui-scheduler-base-icon-prev {
+	background: url(./images/boton_Ant.png);
+}
+
+.aui-scheduler-base-nav .aui-scheduler-base-icon-prev {
+	background: url(./images/boton_Ant.png);
+}
+
+.aui-scheduler-base-nav .aui-scheduler-base-icon-next {
+	background: url(./images/boton_des.png);
+	background-position: top left;
+}
+
+.aui-scheduler-base-content {
+	border: none;
+}
+
+#scheduler-wrapper div,#scheduler-wrapper a {
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #2268a4;
+}
+
+#scheduler-wrapper div.aui-scheduler-event-title {
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #363636;
+}
+
+#scheduler-wrapper div.aui-scheduler-base-hd {
+	border-top: none;
+	border-bottom: none;
+}
+
+#scheduler-wrapper {
+	margin-top: 10px;
+}
+
+div[id^=ddl-record-] {
+	margin-top: 15px;
+}
+
+.aui-scheduler-view-table-data-first,.aui-scheduler-view-table-data-col-title
+	{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	background: #f2f3fb;
+	/* 	border-color: rgb(221, 221, 221); */
+	/* 	border-width: 1px; */
+	/* 	border-style: solid; */
+}
+
+.aui-scheduler-view-table-data-col-title-first {
+	border-left: 1px solid #ddd;
+}
+
+.aui-scheduler-view-table-colgrid {
+	border-right: 1px solid #ddd;
+}
+
+.aui-scheduler-view-table-header-day {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	background: #f2f3fb;
+	border: #f2f3fb;
+}
+
+.aui-scheduler-view-table-header-day:first-child {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.aui-scheduler-view-table-header-day:last-child {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.aui-scheduler-view-table-row-container {
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-radius: 4px;
+	margin-bottom: 1px;
+}
+
+.aui-scheduler-base-views {
+	width: auto;
+}
+
+.aui-scheduler-base-controls {
+	width: 100%;
+	height: 35px;
+}
+
+.aui-scheduler-view-table-header-col {
+	border-radius: 3px;
+}
+
+#scheduler-wrapper .yui3-widget-hd {
+	border-bottom: none;
+	margin-bottom: 1px;
+}
+
+.aui-field-label {
+	color: #363636;
+}
+
+.aui-calendar-monthdays .aui-state-default.aui-state-active {
+	background: #006dc9;
+	color: white;
+	border: none;
+}
+
+.aui-calendar-monthdays .aui-state-default {
+	font-size: 1.091em;
+	font-weight: bold;
+	border: none;
+	background: #f3f3f3;
+	color: #363636;
+	margin: 1px;
+	border-radius: 3px;
+	width: 23px;
+	padding: 1px;
+}
+
+.aui-calendar-monthdays .aui-state-hover {
+	border: none;
+	font-size: 1.091em;
+	font-weight: bold;
+	background: none;
+	border: none;
+	margin: 1px;
+	width: 23px;
+	padding: 1px;
+}
+
+.aui-calendar-monthdays .aui-calendar-day-padding-end {
+	background: none;
+}
+
+.aui-calendar-week {
+	font-size: 1.091em;
+	color: #0f559d;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.aui-calendar-title {
+	text-transform: capitalize;
+	color: #006dc9;
+	font-size: 1.23em;
+}
+
+.aui-calendar-hd .aui-icon-circle-triangle-l {
+	background: url("./images/ant.png");
+	background-repeat: no-repeat;
+}
+
+.aui-calendar-hd .aui-icon-circle-triangle-r {
+	background: url("./images/des.png");
+	background-repeat: no-repeat;
+}
+
+.aui-calendar-content {
+	background: #f3f3f3;
+	width: 200px;
+	padding: 13px;
+}
+
+.yui3-widget-bd {
+	background: white;
+	padding: 5px;
+}
+
+.yui3-widget-hd .aui-calendar-hd {
+	background: none;
+	border: none;
+}
+
+.aui-calendar-link {
+	color: #2268a4;
+	text-decoration: underline;
+}
+
+.csj-field-title {
+	font-weight: bold;
+	margin-top: 5px;
+	white-space: nowrap;
+/* 	text-overflow: ellipsis; */
+/* 	overflow: hidden; */
+}
+
+.aui-label-required{
+	display: none;
+}
+
+#createAppointment img.captcha{
+	width: 102%;
+	padding-top: 0px;
+	background: white;
+}
+
+#createAppointment textarea {
+	height: 80px;
+}

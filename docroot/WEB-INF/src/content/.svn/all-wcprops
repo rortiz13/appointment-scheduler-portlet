@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/6519/ProyectoCSJ/trunk/appointment-scheduler-portlet/docroot/WEB-INF/src/content
+END
+Language.properties
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/6519/ProyectoCSJ/trunk/appointment-scheduler-portlet/docroot/WEB-INF/src/content/Language.properties
+END
+structure.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/6200/ProyectoCSJ/trunk/appointment-scheduler-portlet/docroot/WEB-INF/src/content/structure.xml
+END
+Language_es.properties
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/6519/ProyectoCSJ/trunk/appointment-scheduler-portlet/docroot/WEB-INF/src/content/Language_es.properties
+END
+structure-type.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/6757/ProyectoCSJ/trunk/appointment-scheduler-portlet/docroot/WEB-INF/src/content/structure-type.xml
+END
+structure-city.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/6200/ProyectoCSJ/trunk/appointment-scheduler-portlet/docroot/WEB-INF/src/content/structure-city.xml
+END
